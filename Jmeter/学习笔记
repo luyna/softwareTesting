@@ -5,3 +5,23 @@ Jmeter如何工作：
 Jmeter模拟一系列用户给目标服务器发送请求，然后通过图形化的方式返回目标服务器响应结果。
 
 
+Thread Group
+Thread Groups is a collection of Threads. 
+Each thread represents one user using the application under test. Basically, each Thread simulates one real user request to the server.
+
+Samplers
+As we know already that JMeter supports testing HTTP, FTP, JDBC and many other protocols.
+We already know that Thread Groups simulate user request to the server
+But how does a Thread Group know which type of requests (HTTP, FTP etc.) it needs to make?
+The answer is Samplers
+
+Listeners
+Listeners: shows the results of the test execution. They can show results in a different format such as a tree, table, graph or log file
+Graph result listeners display the server response times on a Graph
+
+
+
+
+
+
+
